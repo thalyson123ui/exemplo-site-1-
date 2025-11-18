@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>aula 1</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+     <!-- Header -->
+    <header class="site-header container">
+        <div class="brand">
+            <h1>mesa adaptavel</h1>
+            <p class="tagline">mesas adaptaveis para ficar em pe e sentado</p>
+        </div>
+        <nav class="main-nav">
+            <a href="#sobre" class="nav-link">Sobre</a>
+            <a href="#produtos" class="nav-link">produtos</a>
+            <a href="#contato" class="nav-link btn">contato </a>
+        </nav>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero container" id="sobre">
+        <div class="hero-text">
+            <h2>material sustentavel e duradouro</p>
+            <a href="produtos" class="btn primary">ver os produtos</a>
+        </div>
+        <div class="hero-image">
+            <img src="mesa 1.webp" alt="mesa adaptavel">
+        </div>
+    </section>
+
+    <!-- Cards / Conteúdo -->
+    <section class="cards container" id="produtos">
+        <article class="card">
+            <img src="mesa 2.webp" alt="mesa regulavel clara">
+            <h3>mesa regulavel clara</h3>
+            <p>mesa com o tampo claro</p>
+            <a class="btn" href="#">Ver mais</a>
+        </article>
+
+        <article class="card">
+            <img src="mesa 3.webp" alt="mesa ergonomica">
+            <h3>mesa ergonomica regulavel com estilo gamer</h3>
+            <p>mesa ergonomica regulavel</p>
+            <a class="btn" href="#">Ver mais</a>
+        </article>
+
+        <article class="card">
+            <img src="mesa 4.avif" alt="mesa regulavel escura">
+            <h3>mesa regulavel</h3>
+            <p>mesa regulavel feita com materiais sustentaveis</p>
+            <a class="btn" href="#">Ver mais</a>
+        </article>
+    </section>
+
+    <!-- Formulário rápido -->
+    <section class="newsletter container" id="contato">
+        <h2>Receba atualizações sobre mais novidades de produtos </h2>
+        <p>Insira seu e-mail para receber notificações sobre novos produtos</p>
+        <form class="form" action="form1" method="post" onsubmit="event.preventDefault(); alert('Inscrição simulada');">
+            <input type="email" name="email" placeholder="seu@exemplo.com" required>
+            <button class="btn primary" type="submit">receber mais novidades</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container">
+            <p>© 2025 <a href="https://github.com/thalyson123ui">thalyson jose da rosa silva</a></p>
+            <p class="small">feito para voce trabalhar confortavelmente</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
